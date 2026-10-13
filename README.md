@@ -10,7 +10,7 @@ Permite crear, consultar y modificar clientes, y saber qué merchants pertenecen
 - Spring Boot: 4.1.1
 - Maven: Wrapper incluido (`mvnw`)
 - Lombok: Gestionado por Spring Boot
-- MapStruct: _Pendiente_
+- MapStruct: 1.6.3
 - DynamoDB: _Pendiente_ (DynamoDB Local con Docker)
 - Swagger / OpenAPI: _Pendiente_ (springdoc-openapi)
 
