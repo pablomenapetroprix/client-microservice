@@ -12,7 +12,7 @@ Permite crear, consultar y modificar clientes, y saber qué merchants pertenecen
 - Lombok: Gestionado por Spring Boot
 - MapStruct: 1.6.3
 - DynamoDB: AWS SDK v2 (Enhanced Client) 2.55.16
-- Swagger / OpenAPI: _Pendiente_ (springdoc-openapi)
+- Swagger / OpenAPI: springdoc-openapi 3.1.1
 
 ## Requisitos previos
 
@@ -46,3 +46,5 @@ src/main/java/com/wipay/client
 ## Seguimiento del estado del proyecto
 
 - [x] Creación del microservicio
+- [x] Creación del microservicio
+- [x] Dependencias: MapStruct, DynamoDB y Swagger
