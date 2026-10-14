@@ -1,8 +1,8 @@
-# wipay-client
+# client-microservice
 
 Microservicio de **gestión de clientes** de Wipay.
 
-Permite crear, consultar y modificar clientes, y saber qué merchants pertenecen a cada cliente. Forma parte de un sistema de dos microservicios junto a [wipay-merchant](https://github.com/TU_USUARIO/wipay-merchant).
+Permite crear, consultar y modificar clientes, y saber qué merchants pertenecen a cada cliente. Forma parte de un sistema de dos microservicios junto a [merchant-microservice](https://github.com/tareas-practicas-wipay/merchant-microservice).
 
 ## Stack
 
@@ -17,7 +17,7 @@ Permite crear, consultar y modificar clientes, y saber qué merchants pertenecen
 ## Requisitos previos
 
 - JDK 21
-- Docker Desktop (necesario a partir de la integración con DynamoDB)
+- Docker Desktop y la infraestructura local levantada: ver [infraestructure](https://github.com/tareas-practicas-wipay/infraestructure)
 
 ## Arranque
 
@@ -30,7 +30,7 @@ Todas las entidades extienden de `MainTable` (diseño de tabla única en DynamoD
 | Entidad | Atributos |
 |---|---|
 | `MainTable` | `PK`, `SK`, `id`, `status`, `gIndex2Pk`, `createdDate` |
-| `Client` | `name`, `surname`, `cifNifNie`, `phone`, `email` |
+| `Client` | `name`, `surname`, `nif`, `phone`, `email` |
 
 ## Estructura del proyecto
 
