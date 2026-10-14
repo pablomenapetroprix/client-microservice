@@ -1,6 +1,6 @@
 package com.wipay.client.config;
 
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.jspecify.annotations.NonNull;
 import org.springframework.boot.ApplicationArguments;
@@ -11,7 +11,7 @@ import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 import software.amazon.awssdk.services.dynamodb.model.ResourceNotFoundException;
 
 @Component
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Slf4j // Logger de Lombok para registrar mensajes de depuración y errores
 public class DynamoDbConnectionCheck implements ApplicationRunner {
 
