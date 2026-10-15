@@ -30,7 +30,7 @@ Todas las entidades extienden de `MainTable` (diseño de tabla única en DynamoD
 | Entidad | Atributos |
 |---|---|
 | `MainTable` | `PK`, `SK`, `id`, `status`, `gIndex2Pk`, `createdDate` |
-| `Client` | `name`, `surname`, `nif`, `phone`, `email` |
+| `Client` | `name`, `surname`, `cifNifNie`, `phone`, `email` |
 
 ## Estructura del proyecto
 
